@@ -1,6 +1,8 @@
 import React from "react";
+import HomeHeader from "./components/HomeHeader";
 import "./index.css";
 
+
 export default function App() {
-  return <h1>create-react-app minimal starter</h1>;
+    return <HomeHeader name={'Home'} author={'kriztiank'}/>
 }
