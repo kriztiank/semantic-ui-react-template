@@ -1,8 +1,20 @@
-import React from "react";
-import HomeHeader from "./components/HomeHeader";
-import "./index.css";
 
+import React from 'react';
+import NavigationBar from './navigation';
+import Posts from './posts';
+import ContactForm from './contact';
 
-export default function App() {
-    return <HomeHeader name={'Home'} author={'kriztiank'}/>
+import './App.css';
+
+function App() {
+
+    return (
+        <div className="App">
+            <NavigationBar />
+            <Posts />
+            <ContactForm />
+        </div >
+    );
 }
+
+export default App;
